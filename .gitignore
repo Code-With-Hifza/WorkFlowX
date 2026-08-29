@@ -1,0 +1,53 @@
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js Build Outputs
+/.next/
+/out/
+/build/
+/dist/
+/.vercel
+
+# Production & Secret Environment Files
+.env
+.env*.local
+.env.production
+.env.staging
+*.pem
+*.key
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Diagnostic & Testing
+/coverage
+/.nyc_output
+/playwright-report/
+/test-results/
+
+# Local Storage / Uploads
+/uploads/
+/public/uploads/
+/scratch/
+
+# IDE & OS Metadata
+.DS_Store
+*.pem
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
